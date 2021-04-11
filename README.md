@@ -4,7 +4,7 @@ A protype app for giga data collection
 
 DEMO: https://giga-data-collection-front.herokuapp.com/
 
-![alt text](https://raw.githubusercontent.com/sanoylab/giga-prototype/master/screenshot.PNG)
+![alt text](https://raw.githubusercontent.com/sanoylab/giga-data-collection-front/master/screenshot.PNG)
 
 
 
