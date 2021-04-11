@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+
+
+
+
+@{
+    var controller = ViewContext.RouteData.Values["Controller"].ToString();
+  
+    if (controller == "Home")
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml"; ;
+    }
+}

@@ -1,0 +1,12 @@
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\bin\Debug\netcoreapp3.1\gdcp.Service.deps.json
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\bin\Debug\netcoreapp3.1\gdcp.Service.dll
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\bin\Debug\netcoreapp3.1\gdcp.Service.pdb
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.csprojAssemblyReference.cache
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.AssemblyInfoInputs.cache
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.AssemblyInfo.cs
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.csproj.CoreCompileInputs.cache
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.dll
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.pdb
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\bin\Debug\netcoreapp3.1\gdcp.Data.dll
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\bin\Debug\netcoreapp3.1\gdcp.Data.pdb
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Service\obj\Debug\netcoreapp3.1\gdcp.Service.csproj.CopyComplete

@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - gdcp.App</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/vendor/font-awesome/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="~/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap.min.css" />
+
+
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="brand">
+
+                <h2 style="color: #fff;">Giga Data Collection Portal (GDCP)</h2>
+            </div>
+            <div class="container-fluid">
+
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-2">
+                <div id="sidebar-nav" class="sidebar" style="width: 15%;">
+                    <div class="sidebar-scroll">
+                        <nav>
+                            <ul class="nav">
+                                <li>
+                                    <div class="area">
+                                        <i class="fa fa-tachometer" aria-hidden="true"></i>
+                                        <span>  <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Index">Dashboard</a></span>
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <div class="area">
+                                        <i class="fa fa-table" aria-hidden="true"></i>
+                                        <span><a class="nav-link text-dark" asp-area="" asp-controller="School" asp-action="Index">Manage Schools</a></span>
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <div class="area">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                        <span><a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">Manage Users</a></span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="area">
+                                        <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+                                        <span><a class="nav-link text-dark" asp-area="" asp-controller="Report" asp-action="Index">Reports</a></span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="area">
+                                        <i class="fa fa-gears" aria-hidden="true"></i>
+                                        <span><a class="nav-link text-dark" asp-area="" asp-controller="Setting" asp-action="Index">Setting</a></span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10" style="width: 85%; float: right;">
+                <div class="main">
+                    <!-- MAIN CONTENT -->
+                    <div class="main-content">
+                        @RenderBody()
+                    </div>
+                    <!-- END MAIN CONTENT -->
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="clearfix"></div>
+
+
+
+    </div>
+
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+  
+    <script src='https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js'></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

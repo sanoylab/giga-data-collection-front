@@ -1,0 +1,212 @@
+﻿
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+
+<link href="~/css/bd-wizard.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/bd-wizard.css">
+<div class="container-fluid" style="width:90%;">
+    <div id="wizard">
+        <h3>
+            <div class="media">
+                <div class="bd-wizard-step-icon"><i class="mdi mdi-account-outline"></i></div>
+                <div class="media-body">
+                    <div class="bd-wizard-step-title">School Information</div>
+                    <div class="bd-wizard-step-subtitle">Step 1</div>
+                </div>
+            </div>
+        </h3>
+        <section>
+            <div class="content-wrapper">
+                <h4 class="section-heading">Enter your School details </h4>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <h5 class="section-heading mb-5">School Name</h5>
+                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="School Name">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <h5 class="section-heading mb-5">Are you at the school right now?</h5>
+                        <input type="radio" id="yes" name="school" value="yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="no" name="school" value="no">
+                        <label for="no">No</label><br>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h3>
+            <div class="media">
+                <div class="bd-wizard-step-icon"><i class="mdi mdi-bank"></i></div>
+                <div class="media-body">
+
+                    <div class="bd-wizard-step-title">Internet Details</div>
+                    <div class="bd-wizard-step-subtitle">Step 2</div>
+                </div>
+            </div>
+        </h3>
+        <section>
+            <div class="content-wrapper">
+                <h4 class="section-heading">Internet Usage details </h4>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <h5 class="section-heading mb-5">Are you at using the school internet now?</h5>
+
+                        <input type="radio" id="yes" name="internet" value="YesConnection">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="no" name="internet" value="NoConnection">
+                        <label for="no">No</label><br>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h3>
+            <div class="media">
+                <div class="bd-wizard-step-icon"><i class="mdi mdi-bank"></i></div>
+                <div class="media-body">
+                    <div class="bd-wizard-step-title">Connectivity Details</div>
+                    <div class="bd-wizard-step-subtitle">Step 3</div>
+                </div>
+            </div>
+        </h3>
+        <section>
+            <div class="content-wrapper automatic" style="display:none">
+                <h4 class="section-heading">Connectivity/location details </h4>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <h5 class="section-heading mb-5">Automatically retrive location and Internet Information </h5>
+                        <label for="lastName" class="sr-only"></label>
+                        <a class="btn btn-primary btn-lg" id="location">Retrive Internet Information</a>
+
+                    </div>
+                </div>
+                <div class="row location-detail" style="display:none;">
+                    <h4 class="section-heading mb-5">Your connectivity and location Details</h4>
+                    <h6 class="font-weight-bold">Location Details</h6>
+                    <p class="mb-4">
+
+                        Latitude: <span id="enteredPhoneNumber">40.7128° N</span> <br>
+                        Longitude: <span id="enteredEmailAddress">74.0060° W</span>
+                    </p>
+                    <h6 class="font-weight-bold">Connectivity Details</h6>
+                    <p class="mb-0">
+
+                        Connectivity Type: <span id="enteredEmployeeNumber">Broadband Internet Network</span> <br>
+                        Connectivity Speed: <span id="enteredWorkEmailAddress">5G</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-wrapper manual" style="display:none">
+                <h4 class="section-heading">Connectivity/location details </h4>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <h5 class="section-heading mb-5">Automatically retrive location and Internet Information </h5>
+                        <label for="lastName" class="sr-only"></label>
+                        <div class="form-group col-md-12">
+                            <h5 class="section-heading mb-5">Connectivity Type</h5>
+                            <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Connectivity Type">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <h5 class="section-heading mb-5">Connectivity Speed</h5>
+                            <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Connectivity Speed">
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </section>
+
+
+        <h3>
+            <div class="media">
+                <div class="bd-wizard-step-icon"><i class="mdi mdi-account-check-outline"></i></div>
+                <div class="media-body">
+                    <div class="bd-wizard-step-title">Review </div>
+                    <div class="bd-wizard-step-subtitle">Step 4</div>
+                </div>
+            </div>
+        </h3>
+        <section>
+            <div class="content-wrapper">
+                <h4 class="section-heading mb-5">Review your Details</h4>
+                <h6 class="font-weight-bold">School Details</h6>
+                <p class="mb-4">
+
+                    School name: <span id="enteredPhoneNumber"><u>St John Catholic Primary School</u></span> <br>
+                    Are you at school now: <span id="enteredEmailAddress"><u>Yes</u></span><br />
+                    Are using school internet connection: <span id="enteredEmailAddress"><u>Yes</u></span>
+                </p>
+                <h6 class="font-weight-bold">Location Details</h6>
+                <p class="mb-0">
+                    Latitude: <span id="enteredPhoneNumber"><u>40.7128° N</u></span> <br>
+                    Longitude: <span id="enteredEmailAddress"><u>74.0060° W</u></span>
+                </p>
+                <h6 class="font-weight-bold">Connectivity Details</h6>
+                <p class="mb-0">
+                    Connectivity Type: <span id="enteredEmployeeNumber"><u>Broadband Internet Network</u></span> <br>
+                    Connectivity Speed: <span id="enteredWorkEmailAddress"><u>5G</u></span>
+                </p>
+            </div>
+        </section>
+        <h3>
+            <div class="media">
+                <div class="bd-wizard-step-icon"><i class="mdi mdi-emoticon-outline"></i></div>
+                <div class="media-body">
+                    <div class="bd-wizard-step-title">Submit</div>
+                    <div class="bd-wizard-step-subtitle">Step 5</div>
+                </div>
+            </div>
+        </h3>
+        <section>
+            <div class="content-wrapper">
+                <h4 class="section-heading mb-5">Accept agreement and Submit</h4>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                        I hereby declare that I had read all the <a href="#!">terms and conditions</a>  and all the details provided my me in this form are true.
+                    </label>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<script src="~/js/jquery.steps.min.js"></script>
+<script src="~/js/bd-wizard.js"></script>
+
+
+
+<script>
+
+
+    $('input[type="radio"]').click(function () {
+        if ($(this).attr("value") == "NoConnection") {
+            $(".automatic").hide('slow');
+            $(".manual").show('slow');
+        }
+        if ($(this).attr("value") == "YesConnection") {
+            $(".automatic").show('slow');
+            $(".manual").hide('slow');
+
+        }
+    });
+    $('input[type="radio"]').trigger('click');
+
+
+
+    $("#location").click(function () {
+        $(".location-detail").show();
+    });
+
+</script>

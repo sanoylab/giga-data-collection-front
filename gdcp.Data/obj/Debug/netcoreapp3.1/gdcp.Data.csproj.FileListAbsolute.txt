@@ -1,0 +1,12 @@
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\bin\Debug\netcoreapp3.1\gdcp.Data.deps.json
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\bin\Debug\netcoreapp3.1\gdcp.Data.dll
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\bin\Debug\netcoreapp3.1\gdcp.Data.pdb
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.AssemblyInfoInputs.cache
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.AssemblyInfo.cs
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.csproj.CoreCompileInputs.cache
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.dll
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.pdb
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\bin\Debug\netcoreapp3.1\gdcp.Data.runtimeconfig.json
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\bin\Debug\netcoreapp3.1\gdcp.Data.runtimeconfig.dev.json
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.genruntimeconfig.cache
+E:\exam\gdcp-frontend\gdcp.App\gdcp.Data\obj\Debug\netcoreapp3.1\gdcp.Data.csprojAssemblyReference.cache
